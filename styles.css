@@ -6,6 +6,7 @@ header {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 60px;;
 }
 
 header h1 {
@@ -17,11 +18,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
-}
-
-.logo img {
-    width: 50px;
-    height: auto;
 }
 
 .nav {
@@ -38,6 +34,7 @@ body {
 
 .block1 {
     background-color: #1F2937;
+    padding-bottom: 70px;
 }
 
 .heroContainer {
@@ -45,5 +42,99 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    background-color: aqua;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: -15px;
+}
+
+.hero button {
+    background-color:#3882F6;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    border-color: #3882F6;
+}
+
+.heroImage {
+    margin-left: auto;
+    display: flex;
+}
+
+.heroImage img {
+    height: 190px;
+    width: auto;
+}
+
+.information p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.boxes .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes .box img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.block3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteContainer p {
+    font-size: 36px;
+    font-family: 'light italic';
+    color: #1F2937;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
